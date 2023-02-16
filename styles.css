@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "sf";
+    src: url("fonts/SFMonoRegular.woff") format('woff');
+}
+
+:root {
+    --primary: #e53935;
+}
+
+a:link {
+    color: #ff4f4f;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #ff4f4f;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: whitesmoke;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: #ff4f4f;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+.profile-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-top: 15%;
+    height: auto;
+    max-width: 200px;
+}
+
+.imie {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 28px;
+    font-family: sf;
+    margin-bottom: 10px;
+}
+
+.opis {
+    text-align: center;
+    font-family: sf;
+    width: auto;
+}
+
+.dsc {
+    text-align: center;
+    font-family: sf;
+    width: auto;
+}
